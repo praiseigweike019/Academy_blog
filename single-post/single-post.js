@@ -1,7 +1,7 @@
 const post = {
-    id: 1,
-    title: "Getting Started with Web Development",
-    body: `
+  id: 1,
+  title: "Getting Started with Web Development",
+  body: `
   <p>Learn the foundations of modern web development and discover how HTML, CSS and JavaScript work together to help you build beautiful and responsive websites.</p>
 
   <p>Every website you visit is built from these three technologies. HTML gives a page its structure: the headings, paragraphs, images, links and forms. CSS controls how everything looks, from colours and fonts to spacing and layout. JavaScript adds behaviour, such as menus that open, forms that check your input, and content that updates without reloading the page.</p>
@@ -20,11 +20,10 @@ const post = {
 
   <p>Stay consistent, keep experimenting, and over time these foundations will grow into the skills you need to build real websites.</p>
 `,
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=85",
-    date: "Nov 10, 2026",
+  image:
+    "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=85",
+  date: "Nov 10, 2026",
 };
-
-
 
 const grid = document.getElementById("postsGrid");
 

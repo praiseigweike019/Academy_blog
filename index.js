@@ -303,7 +303,7 @@ function displayPosts(postsToDisplay) {
 
     // Add the card content
     postCard.innerHTML = `
-      <a href="#" class="post-image">
+      <a href="#" class="post-image" data-id="${post.id}">
 
         <img src="${post.image || ""}" alt="${post.title || "Blog post"}" loading="lazy">
 
@@ -329,7 +329,7 @@ function displayPosts(postsToDisplay) {
           ${shortBody}${shortBody ? "..." : ""}
         </p>
 
-        <a href="#" class="read-link">
+        <a href="#" class="read-link" data-id="${post.id}">
           Read article <span>↗</span>
         </a>
 
